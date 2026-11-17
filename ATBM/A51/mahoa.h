@@ -1,4 +1,4 @@
-#ifndef A51_ENCRYPT_H
+#ifndef A51_ENCRYPT_H /* Include guard: chong nap trung lap file header khi include nhieu lan */
 #define A51_ENCRYPT_H
 
 #include "A51.h"
@@ -22,4 +22,4 @@ void ma_hoa(const char *khoa, const unsigned char *P, unsigned char *C, size_t n
     }
 }
 
-#endif /* A51_ENCRYPT_H */
+#endif /* Chong trung lap thu vien (Include Guard) */
