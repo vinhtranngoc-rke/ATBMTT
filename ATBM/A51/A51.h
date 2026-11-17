@@ -1,4 +1,4 @@
-#ifndef A51_H
+#ifndef A51_H /* Include guard: chong nap trung lap file header khi include nhieu lan */
 #define A51_H
 
 #include <stdio.h>
@@ -81,4 +81,4 @@ int parse_key(const char *s, char bits[65]){
     return 1;
 }
 
-#endif /* A51_H */
+#endif /* Chong trung lap thu vien (Include Guard) */
