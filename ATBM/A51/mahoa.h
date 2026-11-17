@@ -3,11 +3,6 @@
 
 #include "A51.h"
 
-/* MA HOA: C = P XOR S  (S la day bit khoa dong do A5/1 sinh ra tu khoa K)
- *   khoa : chuoi 64 ky tu '0'/'1' (da qua parse_key)
- *   P    : ban ro (nbits bit, bit cao cua moi byte di truoc)
- *   C    : ban ma ra, phai co it nhat (nbits + 7) / 8 byte
- *   X,Y,Z: 3 thanh ghi; ham tra ve trang thai cuoi sau khi quay xong */
 void ma_hoa(const char *khoa, const unsigned char *P, unsigned char *C, size_t nbits,
             int X[], int Y[], int Z[]){
     size_t i;
