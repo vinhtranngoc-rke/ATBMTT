@@ -3,11 +3,6 @@
 
 #include "A51.h"
 
-/* GIAI MA: P = C XOR S  (cung day bit khoa S nhu luc ma hoa, nen phai dung dung khoa K)
- *   khoa : chuoi 64 ky tu '0'/'1' (da qua parse_key)
- *   C    : ban ma vao (nbits bit)
- *   P    : ban ro ra, phai co it nhat (nbits + 7) / 8 byte
- *   X,Y,Z: 3 thanh ghi; ham tra ve trang thai cuoi sau khi quay xong */
 void giai_ma(const char *khoa, const unsigned char *C, unsigned char *P, size_t nbits,
              int X[], int Y[], int Z[]){
     size_t i;
